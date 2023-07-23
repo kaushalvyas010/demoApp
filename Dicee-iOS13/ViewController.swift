@@ -19,11 +19,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         diceImageView1.image = #imageLiteral(resourceName: "DiceSix")
-        diceImageView1.image = #imageLiteral(resourceName: "DiceSix")
+        diceImageView2.image = #imageLiteral(resourceName: "DiceSix")
     }
 
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         print("Button was tapped")
+        diceImageView1.image = #imageLiteral(resourceName: "DiceFour")
+        diceImageView2.image = #imageLiteral(resourceName: "DiceFour")
     }
     
 
